@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: transparent;
+}
+.medsos {
+    padding: 10px 0;
+    background-color: #2F4F4F;
+}
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: #2F4F4F;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #2F4F4F;
+    color: white;
+}
+.active {
+    background-color: #2F4F4F;
+    color: white;
+}
+.banner {
+    height: 60vh;
+    border: 1px solid;
+    background-image: url(..//sharegrid-N10auyEVst8-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2f4f4f57;
+}
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid black;
+}
+section {
+    padding: 100px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #2F4F4F;
+    margin-bottom: 20px;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.footer {
+    text-align: center;
+    min-height: 20px;
+    padding: 30px;
+    background-color: #2f4f4f57;
